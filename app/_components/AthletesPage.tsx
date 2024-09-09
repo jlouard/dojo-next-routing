@@ -10,7 +10,7 @@ type Props = {
 export const AthletesPage = ({ athletes }: Props) => {
     let displayedAthletes = athletes;
     return (
-        <div className="flex flex-col w-full h-full p-8">
+        <div className="flex flex-col w-full h-full">
             <div className="flex flex-row gap-2 text-yellow-300 font-bold">
                 <p className="w-40">COUNTRY</p>
                 <p className="w-40">FIRST NAME</p>
