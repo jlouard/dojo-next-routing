@@ -1,4 +1,4 @@
-import { Tickets } from "../_components/Tickets";
+import { Tickets } from "@/app/_components/Tickets";
 
 export default function Page() {
    return  (
