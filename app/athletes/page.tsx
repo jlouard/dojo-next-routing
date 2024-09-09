@@ -1,5 +1,5 @@
-import { AthletesPage } from "@/app__/_components/AthletesPage";
-import { ATHLETES } from "@/app__/_data/athletes";
+import { AthletesPage } from "../_components/AthletesPage";
+import { ATHLETES } from "../_data/athletes";
 
 export default async function Page() {
         return (
