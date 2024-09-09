@@ -10,10 +10,10 @@ export const Header = () => {
              Home
          </Link>
          <Link 
-            href="/shop"
+            href="/tickets"
             className="w-40 bg-white text-black text-center p-4 rounded-md"
          >
-             Shop
+             Tickets
          </Link>
          <Link 
             href="/athletes"
