@@ -1,14 +1,18 @@
 type LayoutProps = {
     children: React.ReactNode;
-    // add your slots here
+    athletesList: React.ReactNode;
+    sideMenu: React.ReactNode;
   };
   
   export default function AthleteLayout({
-    // add your slots here
+    athletesList,
+    sideMenu,
   }: LayoutProps) {
 
         return (
         <div className="flex flex-row w-full h-full p-8">
+            {athletesList}
+            {sideMenu}
         </div>
         );
     }
